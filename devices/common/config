@@ -74,6 +74,14 @@ CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-app-firewall=y
 CONFIG_PACKAGE_wpad-openssl=y
 
+## zapret2
+CONFIG_PACKAGE_kmod-nft-queue=y
+CONFIG_PACKAGE_gzip=y
+CONFIG_PACKAGE_coreutils-sleep=y
+CONFIG_PACKAGE_coreutils-sort=y
+CONFIG_PACKAGE_luci-app-https-dns-proxy=y
+CONFIG_PACKAGE_luci-app-upnp=y
+
 ## USB storage. Stock images install it from the kmods feed, which cannot
 ## serve this kernel, so it is built in. kmod-fs-ext4 is a target default.
 CONFIG_PACKAGE_kmod-usb-storage=y
