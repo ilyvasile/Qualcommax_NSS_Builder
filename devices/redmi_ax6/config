@@ -5,7 +5,7 @@
 #
 
 CONFIG_TARGET_qualcommax_ipq807x=y
-CONFIG_TARGET_DEVICE_qualcommax_ipq807x_DEVICE_redmi_ax6=y
+CONFIG_TARGET_qualcommax_ipq807x_DEVICE_redmi_ax6=y
 
 # 512 MB board: the ath11k profile is also forced by kmod-ath11k's NSS block,
 # and the NSS MEDIUM profile replaces the ipq807x default (HIGH), which does
