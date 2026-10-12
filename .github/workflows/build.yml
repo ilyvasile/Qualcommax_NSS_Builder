@@ -6,18 +6,18 @@ name: Build
 on:
   workflow_dispatch:
   # Only what goes into an image: the site, prune and stats scripts do not.
-  push:
-    branches: [main]
-    paths:
-      - 'devices/**'
-      - 'patches/**'
-      - 'scripts/prepare-build.sh'
-      - '.github/workflows/build.yml'
-      - '.github/workflows/build-flavour.yml'
+  #push:
+  #  branches: [main]
+  #  paths:
+  #    - 'devices/**'
+  #    - 'patches/**'
+  #    - 'scripts/prepare-build.sh'
+  #    - '.github/workflows/build.yml'
+  #    - '.github/workflows/build-flavour.yml'
   # Once a day, and only when a source moved: a full build of every group costs
   # 500 to 1500 runner minutes, and auto-updating routers take one release a day.
-  schedule:
-    - cron: "0 1 * * *"
+  #schedule:
+  #  - cron: "0 1 * * *"
 
 permissions:
   contents: write
