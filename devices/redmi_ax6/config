@@ -8,13 +8,14 @@ CONFIG_TARGET_qualcommax_ipq807x=y
 CONFIG_TARGET_qualcommax_ipq807x_DEVICE_redmi_ax6=y
 
 
-## zapret2
+## zapret2, podkop
 CONFIG_PACKAGE_kmod-nft-queue=y
 CONFIG_PACKAGE_gzip=y
 CONFIG_PACKAGE_coreutils-sleep=y
 CONFIG_PACKAGE_coreutils-sort=y
-CONFIG_PACKAGE_luci-app-https-dns-proxy=y
 CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-nft-tproxy=y
 
 # Compressed swap in RAM for the boards with the least of it.
 CONFIG_PACKAGE_zram-swap=y
