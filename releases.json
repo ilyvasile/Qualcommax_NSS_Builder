@@ -1,0 +1,54 @@
+{
+ "latest": "ppe-nss-20261122T162017Z-45043236861",
+ "releases": [
+  {
+   "tag": "ppe-nss-20261122T162017Z-45043236861",
+   "time": 1795375603,
+   "groups": [
+    "redmi_ax6"
+   ]
+  },
+  {
+   "tag": "ppe-nss-20261115T165730Z-43738340075",
+   "time": 1794771323,
+   "groups": [
+    "redmi_ax6"
+   ]
+  },
+  {
+   "tag": "ppe-nss-20261112T103212Z-43201197627",
+   "time": 1794486424,
+   "groups": [
+    "redmi_ax6"
+   ]
+  }
+ ],
+ "flavours": {
+  "ppe-nss": {
+   "latest": "ppe-nss-20261122T162017Z-45043236861",
+   "releases": [
+    {
+     "tag": "ppe-nss-20261122T162017Z-45043236861",
+     "time": 1795375603,
+     "groups": [
+      "redmi_ax6"
+     ]
+    },
+    {
+     "tag": "ppe-nss-20261115T165730Z-43738340075",
+     "time": 1794771323,
+     "groups": [
+      "redmi_ax6"
+     ]
+    },
+    {
+     "tag": "ppe-nss-20261112T103212Z-43201197627",
+     "time": 1794486424,
+     "groups": [
+      "redmi_ax6"
+     ]
+    }
+   ]
+  }
+ }
+}
